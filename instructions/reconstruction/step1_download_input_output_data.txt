@@ -1,0 +1,32 @@
+### INPUT
+
+Both reconstructions, matlab and python, require `input` data folder to be placed in the parent directory. 
+
+e.g. 
+$ ls
+input  instructions  preprocessing  reconstruction_matlab  reconstruction_python
+
+
+To download a demo data please refer to instructions sent to you separately by email. 
+
+WARNING: this demo data WILL contain PHI, which must be protected. Make sure that you do not share this outside of the hospital. You should not store PHI data on github, even if it is placed in a private repository. 
+
+Note that my `.gitignore` file includes `input/*` ''
+
+
+
+
+### OUTPUT
+
+Currently, the output is written to: 
+
+reconstruction_python/output 
+reconstruction_matlab/output 
+
+I will provide you with demo reconstructions for matlab and python code - so that you can compare your own results with mine. 
+
+WARNING: make sure that the output data is NOT shared outside of the hospital as it will contain PHI information (the folder names will contain patient name and MRN). 
+
+
+
+

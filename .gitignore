@@ -1,0 +1,26 @@
+
+# image related 
+*.png 
+*.jpeg
+*.jpg
+*.mat
+*.nii.gz 
+*.nrrd 
+*.dat 
+
+# misc 
+*.ipynb_checkpoints*
+*.m~
+*.asv~
+__pycache__
+*.vscode
+*.html 
+.svn/*
+*.DS_Store
+
+# this repository 
+archive/
+input/*
+reconstruction_matlab/output/*
+reconstruction_python/output/*
+report.txt
