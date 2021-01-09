@@ -1,0 +1,41 @@
+### IGNORE 
+
+
+
+
+
+##################### serge's notes - extracting dependencies of GRASP python reconstruction code. 
+
+
+PYTHON reconstruction has 
+
+1. Python dependencies 
+
+2. Matlab dependencies 
+
+
+##################### Python dependencies 
+
+
+A. Gather `import` dependencies 
+pip install pipreqs 
+
+pipreqs .  # where . refers to `reconstruction_python` folder with python code  
+
+B. Gather `sys.path.append` dependencies 
+(unfortunately pipreqs does NOT list dependencies added via sys.path.append)
+
+I've copied the following folders manually by looking at the python reconstruction code lines that used `sys.path.append`. 
+The dependencies were copied into `reconstruction_python/ext` folder from: 
+/home/ch199899/Documents/Research/DCE_all/
+
+
+
+
+##################### Matlab dependencies 
+
+THe matlab dependencies are a subset of dependencies of the FULL GRASP matlab reconstruction code. 
+Therefore - simply addpath(genpath('../reconstruction_matlab/ext/')) inside the python file 
+
+
+See the details of ../reconstruction_matlab/ext/dependencies_notes_ignores.txt for instructions how matlab dependencies were generated. 

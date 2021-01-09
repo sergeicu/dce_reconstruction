@@ -1,0 +1,12 @@
+hdf5storage==0.1.15
+joblib==1.0.0
+matplotlib==3.3.3
+nibabel==3.2.1
+numpy==1.19.5
+pandas==1.2.0
+pynufft==2020.2.7
+scikit_learn==0.24.0
+scipy==1.6.0
+transforms3d==0.3.1
+scikit-image
+pynrrd

@@ -1,0 +1,5 @@
+*.mat
+*.pyc
+*.m~
+*.vscode
+*.pkl
