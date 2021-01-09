@@ -1,0 +1,71 @@
+### IGNORE 
+
+
+
+
+
+##################### serge's notes - extracting dependencies of GRASP matlab reconstruction code. 
+
+
+The folders listed below (NOT files) are dependencies of the GRASP matlab reconstruction code. 
+
+Reconstruction code is located here: 
+/home/ch215616/code/dce/final/reconstruction/process_all_KidneySubjects.m
+
+To obtain the list of functions used by the reconstruction code run the following inside matlab: 
+[fList,pList] = matlab.codetools.requiredFilesAndProducts('process_all_KidneySubjects.m');
+
+Then run: 
+for i=1:length(fList)
+	fList{i}
+end 
+
+Then pick all the folders that are outputted (below is the copy of UNIQUE folders, not functions). 
+
+Then copy these folders in linux by running copy operation like this: 
+
+ff=/home/ch215616/code/dce/final/reconstruction/ext
+cp -R /fileserver/motion/tess/Code/MatlabRepository/ESPIRiT/ $ff
+
+Note that I created a separate folders called `ext` to hold external libraries. 
+
+
+
+
+############################## UNIQUE FOLDERS (not files) to copy - dependencies of GRASP matlab reconstruction code 
+
+
+/fileserver/motion/tess/Code/MatlabRepository/ESPIRiT/
+
+/fileserver/motion/tess/Code/retroMoCoBox-2/fatnavtools/sn.m
+
+
+/home/ch215616/code/archive/matlab/from_arvind/FromScott/mbin/sinc.m
+
+/home/ch199899/Documents/Research/DCE_all/DCE/data_parser/writeGraspReconMat2nii_jcf.m
+
+/home/ch199899/Documents/Research/DCE/image_reconstruction/image_reconstruction_wrapper_GRASP.m
+
+/home/ch199899/Documents/Research/DCE/external/poblano_toolbox_1.1/poblano_params.m
+
+/home/ch199899/Documents/Research/DCE/external/nufft_toolbox/streq.m
+
+/home/ch199899/Documents/Research/DCE/external/mapVBVD/twix_map_obj.m
+
+/home/ch199899/Documents/Research/DCE/external/io_tools/nifti/verify_nii_ext.m
+
+/home/ch199899/Documents/Research/DCE/external/graph/axisx.m
+
+/home/ch199899/Documents/Research/DCE/external/@NUFFT/transpose.m
+
+/home/ch199899/Documents/Research/DCE/external/@MCNUFFT/transpose.m
+
+/home/ch199899/Documents/Research/DCE/coil_profile/vec_to_img.m
+
+/home/ch199899/Documents/Research/DCE/FID/FID_extraction.m
+
+
+
+
+
+
