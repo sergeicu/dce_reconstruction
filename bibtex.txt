@@ -1,0 +1,10 @@
+@article{coll2020bulk,
+  title={Bulk motion-compensated DCE-MRI for functional imaging of kidneys in newborns},
+  author={Coll-Font, Jaume and Afacan, Onur and Chow, Jeanne S and Lee, Richard S and Stemmer, Alto and Warfield, Simon K and Kurugol, Sila},
+  journal={Journal of Magnetic Resonance Imaging},
+  volume={52},
+  number={1},
+  pages={207--216},
+  year={2020},
+  publisher={Wiley Online Library}
+}
