@@ -27,4 +27,4 @@ If you use this code, please cite the following works:
 **Title**  
 Author1, Author 2
 Journal, Year  
-[[link](link)  |  [arxiv](link)  |  [bibtex](https://github.com/sergeicu/dce_reconstruction/blob/master/bibtex.txt)]
+[[link](https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.27021) |  [bibtex](https://github.com/sergeicu/dce_reconstruction/blob/master/bibtex.txt)]
