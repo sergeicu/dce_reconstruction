@@ -25,6 +25,5 @@ Both code bases were further modified by [@sergeicu](https://github.com/sergeicu
 If you use this code, please cite the following works:
 
 **Title**  
-Author1, Author 2
-Journal, Year  
+J Coll-Font et al., JMRI, 2019  
 [[link](https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.27021) |  [bibtex](https://github.com/sergeicu/dce_reconstruction/blob/master/bibtex.txt)]
