@@ -24,7 +24,7 @@ from joblib import Parallel, delayed
 import numpy as np
 from scipy.interpolate import interp1d
 from scipy.ndimage import morphology as mrp
-from pynufft.linalg import nufft_cpu
+from pynufft.linalg.nufft_cpu import NUFFT_cpu
 #from pynufft import NUFFT_cpu
 
 # data import

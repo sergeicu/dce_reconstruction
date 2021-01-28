@@ -338,7 +338,7 @@ if __name__ == '__main__':
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    tempFolder =  '/tmp/ltiRecon_subj'+ mrn + '/'
+    tempFolder =  '/fileserver/fastscratch/dce_reconstruction_tmp_files/ltiRecon_subj'+ mrn + '/'
     if not os.path.exists(tempFolder):
         os.makedirs(tempFolder)
 
